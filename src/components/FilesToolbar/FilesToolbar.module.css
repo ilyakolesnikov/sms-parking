@@ -1,0 +1,12 @@
+.root {
+    display: flex;
+    align-items: center;
+}
+
+.fileInput {
+    display: none;
+}
+
+button.button {
+    color: white;
+}

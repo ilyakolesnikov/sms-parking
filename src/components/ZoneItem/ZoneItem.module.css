@@ -1,0 +1,49 @@
+.root {
+    margin: 8px 0;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.info {
+    flex-grow: 1;
+    margin-right: 16px;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.place {
+    color: #aaa;
+}
+
+.parkingBtn {
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: 700;
+    background-color: #3f51b5;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.deleteOverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    left: 0;
+    background:white;
+    justify-content: space-around;
+}
+
+button.utilButton {
+    font-weight: 600;
+}

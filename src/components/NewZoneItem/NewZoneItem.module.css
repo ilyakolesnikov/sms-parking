@@ -1,0 +1,17 @@
+.root {
+    padding: 16px;
+}
+
+.inputField {
+    width: 100%;
+}
+
+.inputField + .inputField {
+    margin-top: 8px;
+}
+
+.actions {
+    display: flex;
+    margin-top: 16px;
+    justify-content: space-around;
+}
